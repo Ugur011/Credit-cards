@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    width: 70vw;
+    height: 81vh;
+    background-color: gainsboro;
+    display: grid;
+    grid-template: repeat(2,250px) / repeat(2,375px);
+    gap: 10px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card{
+    border-radius: 8px;
+    padding: 10px;
+}
+.card *{
+    position: relative;
+    top: 8px;
+}
+.sim img{
+    width: 60px;
+    position: relative;
+}
+.visa img , .master img{
+    width: 100px;
+}
+.visa{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -45px;
+    margin: 5px;
+}
+.bank-name img{
+    position: relative;
+    left: 100px;
+    top: -20px;
+    width: 250px;
+}
+.card3 *{
+    position: relative;
+    top: -20px;
+}
+.card3 .sim{
+    position: relative;
+    top: 40px;
+}
+.card4 .bank-name img{
+    width: 150px;
+    position: relative;
+    left: 200px;
+    top: -47px;
+}
+.card4 *{
+    position: relative;
+    top: -25px;
+}
+.card4 .sim{
+    position: relative;
+    top: 45px;
+}
+.master{
+    position: relative;
+    left: 250px;
+    top: -90px;
+}
+.name{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.date{
+    color: #fff;
+    line-height: 7px;
+}
+.number{
+    font-weight: 444;
+    color: snow;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin: 10px;
+}
+.card1{
+    background-color: rgb(183, 125, 238);
+}
+.card2{
+    background-color: #000;
+}
+.card3{
+    background-color: rgb(0, 158, 0);
+}
+.card4{
+    background-color: blue;
+}
